@@ -14,22 +14,12 @@ This assignment demonstrates practical examples of exception handling in Java wh
 The program is implemented in a single Java file and includes:  
 1. Methods that simulate and handle different exceptions (both checked and unchecked).  
 2. Implementations for the following scenarios: 
-   - Car Rental System
    - Online Shopping
    - Online Betting
    - Student Attendance List
    - Traffic Fines System
 
 ---
-
-## Scenario Descriptions and Features  
-
-### 1. Car Rental System  
-The Car Rental System allows users to:  
-- Add car rental entries, including car ID, model, and daily rental price.  
-- Handle invalid inputs, such as non-numeric IDs or empty car model names, using exception handling mechanisms.  
-- Use a menu-driven interface for ease of navigation.  
-
 ### 2. Online Shopping  
 The Online Shopping system includes:  
 - Adding items to a cart with item ID, name, and price.  
@@ -106,23 +96,6 @@ The Traffic Fines system includes:
 - **Interactive Design**: A menu-driven approach enhances usability for users.  
 - **Real-life Simulation**: Exception scenarios mimic realistic situations for effective learning.  
 
----
-
-## Sample Output  
-
-### Car Rental System:  
-- Input for car ID, model, and price successfully added:  
-   ```
-   Car rental entry added successfully!
-   Car ID: 101
-   Car Model: Toyota Corolla
-   Rental Price: $50.0
-   ```  
-- Invalid input example:  
-   ```
-   IllegalArgumentException caught: Car model cannot be empty.
-   ```  
-
 ### Online Shopping:  
 - Valid item addition example:  
    ```
@@ -151,7 +124,7 @@ The Traffic Fines system includes:
    ```
    Attendance recorded successfully!
    Student ID: 303
-   Student Name: John Doe
+   Student Name: GAKURU Libenz
    ```
 - Duplicate entry exception:  
    ```
@@ -163,7 +136,7 @@ The Traffic Fines system includes:
    ```
    Fine recorded successfully!
    Vehicle Registration: RAB1234
-   Fine Amount: $50.0
+   Fine Amount: $90.0
    Violation: Speeding
    ```
 - Invalid fine amount:  
